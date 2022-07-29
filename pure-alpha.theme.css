@@ -1,0 +1,28 @@
+/**
+* @name Pure
+* @author Ilyès Hernandez
+* @authorId 970732109863989330
+* @licence MIT
+* @source https://puretheme.vercel.app/source
+* @website https://puretheme.vercel.app/download
+* @description **[Pure](https://puretheme.vercel.app/)**, is an amazing *discord theme*. Simple to use, with beautiful colors. Created by a simple user of [Discord](http://discord.com/), this theme understand the community and make better everyday.
+* @version 1.0.0-alpha
+*/
+
+:root {
+  /* brand color */
+  --brand-experiment: #3c84e4;
+  --brand-experiment-560: #3c74cc;
+  --rs-online-color: #3ccc6e;
+  --rs-idle-color: #faa61a;
+  --rs-dnd-color: #f04747;
+  --rs-streaming-color: #645af8;
+  --rs-invisible-color: #747f8d;
+  --button-positive-background: #3ccc6e;
+  --button-positive-background-hover: #278748;
+  --header-primary: #e9eef5e2;
+
+  /* links colors */
+  --text-normal: Inter;
+  --text-link: #5999ee;
+}

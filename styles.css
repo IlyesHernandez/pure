@@ -1,0 +1,143 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap");
+
+/* Variable */
+
+:root {
+  --text-light: #f1f1f1;
+  --text-lightgray: #a2a2a2;
+  --text-dark: #111010;
+  --background-primary: #111010;
+  --background-secondary: #010101;
+  --border-secondary: #272727;
+  --brand-primary: #3c84e4;
+  --brand-primary-hover: #3c74cc;
+  --text-link: #5999ee;
+  --text-danger: #f04747;
+  --success-color: #20df53;
+  --success-color-hover: #12b93f;
+}
+
+*::selection {
+    background-color: var(--brand-primary);
+    color: var(--text-light)
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.hero-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+}
+
+/* body */
+
+body {
+  background-color: var(--background-primary);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a,
+blockquote,
+strong,
+pre,
+span,
+i,
+code {
+  font-family: "Poppins", sans-serif;
+  color: var(--text-light);
+}
+
+.text-center {
+  text-align: center;
+}
+
+a {
+  color: var(--text-link);
+  text-decoration: none;
+}
+
+.btn-primary {
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  border: none;
+  background-color: var(--brand-primary);
+  color: var(--text-light);
+  cursor: pointer;
+  transition: all 0.8s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+.btn-primary:hover {
+  background-color: var(--brand-primary-hover);
+}
+
+.btn-secondary {
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  background-color: var(--background-secondary);
+  border: 1px solid var(--border-secondary);
+  color: var(--text-light);
+  cursor: pointer;
+  transition: all 0.8s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+.btn-secondary:hover {
+  border: 1px solid var(--brand-primary-hover);
+}
+
+.title {
+  font-size: 40px;
+  margin-bottom: 10px;
+}
+
+.subtitle * {
+  color: var(--text-lightgray);
+}
+
+.subtitle {
+  color: var(--text-lightgray);
+  width: 570px;
+  margin-bottom: 30px;
+}
+
+.btn-primary.success {
+    background-color: var(--success-color)
+}
+
+.btn-primary.success:hover {
+    background-color: var(--success-color-hover)
+}
+
+@media screen and (max-width: 668px) {
+    .title {
+        font-size: 30px;
+    }
+    .subtitle {
+        font-size: 11px;
+        width: 70%;
+    }
+}
+@media screen and (max-width: 468px) {
+    .title {
+        font-size: 25px;
+    }
+    .subtitle {
+        font-size: 11px;
+        width: 70%;
+    }
+}
