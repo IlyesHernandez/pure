@@ -3,8 +3,7 @@
 * @author Ilyès Hernandez
 * @authorId 970732109863989330
 * @licence MIT
-* @source https://puretheme.vercel.app/source
-* @website https://puretheme.vercel.app/download
+* @source https://github.com/IlyesHernandezDev/Pure-Theme-For-Better-Discord/edit/main/pure.theme.css
 * @description **[Pure](https://puretheme.vercel.app/)**, is an amazing *discord theme*. Simple to use, with beautiful colors. Created by a simple user of [Discord](http://discord.com/), this theme understand the community and make better everyday.
 * @version 1.0.0-alpha
 */
@@ -23,6 +22,5 @@
   --header-primary: #e9eef5e2;
 
   /* links colors */
-  --text-normal: Inter;
   --text-link: #5999ee;
 }
